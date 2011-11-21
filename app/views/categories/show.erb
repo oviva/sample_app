@@ -1,2 +1,4 @@
 <h1><%= @category.name %></h1> 
-<p><%= @category.description %></p>
+<p class="description"><%= @category.description %></p>
+
+<strong>you are in </strong><%= link_to "Home", root_path%> <%= link_to category_path(@category), @category %>

@@ -1,5 +1,7 @@
 .container {
 	width: 890px;
+	margin: 0 auto;
+	padding:0 20px;
 	}
 	
 body {
@@ -7,8 +9,16 @@ body {
 	}
 	
 header {
-	padding-top: 20px;
-	height:60px;
+	height:50px;
+	background: #3f4c6b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3f4c6b 0%, #1f2635 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f4c6b), color-stop(100%,#1f2635)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3f4c6b 0%,#1f2635 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3f4c6b 0%,#1f2635 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3f4c6b 0%,#1f2635 100%); /* IE10+ */
+	background: linear-gradient(top,  #3f4c6b 0%,#1f2635 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#1f2635',GradientType=0 ); /* IE6-9 */
+	
 	}
 
 br {
@@ -19,16 +29,16 @@ br {
 }
 	
 header img {
-	padding: 1em;
-	background: #fff;
 	float:left;
+	margin-left: 10px;
 	}
 	
 section {
-	margin-top: 1em;
+	/*margin-top: 1em;*/
 	font-size: 120%;
 	padding: 20px;
 	background: #fff;
+	min-height:700px;
 	}
 	
 section h1 {
@@ -56,7 +66,7 @@ nav {
 	}
 	
 nav {
-	background-color: white;
+	margin-top:10px;
 	padding: 0 0.7em;
 	white-space: nowrap;
 	}
@@ -109,16 +119,15 @@ a.signup_button {
 
 footer {
 	text-align: center;
-	margin-top: 1px;
-	width: 890px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height:50px;
-	
+	border-top:1px solid #EEE;
+	background:#fff;
 	}
 	
 footer nav {
-	background: #222;
+	margin-top: 0;
 	float: none;
 	}
 	
