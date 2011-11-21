@@ -21,6 +21,11 @@ module SessionsHelper
     cookies.delete(:remember_token)
     current_user = nil
   end
+  
+  def deny_access
+    #Prolem is not solve here :Page 378 | Ruby on Rails 3
+    redirect_to signin_path, :notice => "Please sign in to access this page."
+  end
     
   private
   

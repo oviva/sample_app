@@ -1,5 +1,5 @@
 .container {
-	width: 710px;
+	width: 890px;
 	}
 	
 body {
@@ -100,21 +100,25 @@ a.signup_button {
 	}
 	
 /* Round corners */
-.round {
+/*.round {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	}
+*/	
 
 footer {
 	text-align: center;
-	margin-top: 10px;
-	width: 710px;
+	margin-top: 1px;
+	width: 890px;
 	margin-left: auto;
 	margin-right: auto;
+	line-height:50px;
+	
 	}
 	
 footer nav {
+	background: #222;
 	float: none;
 	}
 	
